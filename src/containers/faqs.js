@@ -20,7 +20,6 @@ export function FaqsContainer() {
                 <OptForm.Input placeholder="Email address" />
                 <OptForm.Button>GET STARTED</OptForm.Button>
             </OptForm>
-
         </Accordion>
     );
 }
