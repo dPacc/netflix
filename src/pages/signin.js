@@ -13,7 +13,7 @@ export default function Signup() {
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
 
-    const isInvalid = password == '' | emailAddress == '';
+    const isInvalid = password === '' | emailAddress === '';
     
     const handleSignin = (event) => {
         event.preventDefault();
@@ -29,7 +29,7 @@ export default function Signup() {
                 setPassword('');
                 setError(error.message);
             });
-    }
+    };
     
     return (
         <>
@@ -55,15 +55,15 @@ export default function Signup() {
                         <Form.Submit disabled={isInvalid} type="submit">
                             Sign In
                         </Form.Submit>
+
+                        <Form.Text>
+                            New to Netflix? <Form.Link to="/signup">Sign up now.</Form.Link>
+                        </Form.Text>
+
+                        <Form.TextSmall>
+                            This page is protected by Google reCAPTCHA to ensure you're not a bot. Learn more.
+                        </Form.TextSmall>
                     </Form.Base>
-
-                    <Form.Text>
-                        New to Netflix? <Form.Link to="/signup">Sign up now.</Form.Link>
-                    </Form.Text>
-
-                    <Form.TextSmall>
-                        This page is protected by Google reCAPTCHA to ensure you're not a bot. Learn more.
-                    </Form.TextSmall>
                 </Form>
             </HeaderContainer>
             <FooterContainer />
