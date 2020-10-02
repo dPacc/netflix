@@ -3,6 +3,7 @@
 Tech Stack used: -
 - ReactJS : Front End
 - Firebase : Backend
+- Firestore : Database
 - FuseJS : Search
 
 ### FAQ's
