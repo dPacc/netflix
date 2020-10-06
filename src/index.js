@@ -8,7 +8,7 @@ import { GlobalStyles } from './global-styles';
 
 render(
   <>
-    <FirebaseContext.Provider value = {{ firebase}}>
+    <FirebaseContext.Provider value = {{ firebase }}>
       <GlobalStyles />
       <App />
     </FirebaseContext.Provider>
