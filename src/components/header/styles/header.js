@@ -38,19 +38,38 @@ export const Logo = styled.img`
 `;
 
 export const ButtonLink = styled(ReactRouterLink)`
-  display: block;
-  background-color: #e50914;
-  width: 84px;
-  height: fit-content;
-  color: white;
-  border: 0;
-  font-size: 15px;
-  border-radius: 3px;
-  padding: 8px 17px;
-  cursor: pointer;
-  text-decoration: none;
-  box-sizing: border-box;
-  &:hover {
-    background: #f40612;
-  }
+    display: block;
+    background-color: #e50914;
+    width: 84px;
+    height: fit-content;
+    color: white;
+    border: 0;
+    font-size: 15px;
+    border-radius: 3px;
+    padding: 8px 17px;
+    cursor: pointer;
+    text-decoration: none;
+    box-sizing: border-box;
+    &:hover {
+        background: #f40612;
+    }
+`;
+
+export const Feature = styled(Container)`
+    padding: 150px 0 500px 0;
+    flex-direction: column;
+    align-items: normal;
+    width: 50%;
+
+    @media (max-width: 1100px) {
+        display: none;
+    }
+`;
+
+export const Text = styled.p`
+    color: white;
+    font-size: 22px;
+    line-height: normal;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
+    margin: 0;
 `;
