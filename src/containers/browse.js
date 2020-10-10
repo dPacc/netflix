@@ -20,7 +20,11 @@ export function BrowseContainer({ slides }) {
         {loading ? <Loading src={user.photoURL} /> : ( <Loading.ReleaseBody /> )}
         <Header src="joker1">
             <Header.Feature>
-                <Header.Text>Hello</Header.Text>
+                <Header.FeatureCallOut>Watch Joker Now</Header.FeatureCallOut>
+                <Header.Text>
+                Arthur Fleck, a party clown, leads an impoverished life with his ailing mother. 
+                However, when society shuns him and brands him as a freak, he decides to embrace the life of crime and chaos.
+                </Header.Text>
             </Header.Feature>
         </Header>
         </>
