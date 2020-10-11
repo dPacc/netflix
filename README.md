@@ -1,12 +1,13 @@
-# Netflix Clone - Styled Components - Firebase (Firestore & Auth)
+# Netflix Clone
+
+![Netflix](./app_banner.png)
+
+Live Demo: https://unruffled-elion-b07cc6.netlify.app/
+
+
 
 Tech Stack used: -
 - ReactJS : Front End
 - Firebase : Backend
 - Firestore : Database
 - FuseJS : Search
-
-### FAQ's
-
-- How are we searching for the movies?
-  Using Fuse.JS, it is a powerful, lightweight fuzzy-search library. Fuzzy searching (more formally known as approximate string matching) is the technique of finding strings that are approximately equal to a given pattern (rather than exactly).
