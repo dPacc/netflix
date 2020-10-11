@@ -1,4 +1,4 @@
-# Netflix Clone
+# Netflix Clone - Styled Components - Firebase (Firestore & Auth)
 
 Tech Stack used: -
 - ReactJS : Front End
